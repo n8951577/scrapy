@@ -1,0 +1,33 @@
+from setuptools import setup
+
+setup(
+    name='Journal',
+    version='',
+    packages=['olx.olx', 'olx.olx.spiders', 'sit.sit', 'sit.sit.spiders', 'books.books', 'books.books.spiders',
+              'hindu.hindu', 'hindu.hindu.spiders', 'test1.test1', 'test1.test1.spiders', 'amazon.amazon',
+              'amazon.amazon.spiders', 'craigs.craigs', 'craigs.craigs.spiders', 'sample.sample',
+              'sample.sample.spiders', 'journal.journal', 'journal.journal.spiders', 'quotes1.quotes',
+              'quotes1.quotes.spiders', 'conifers.conifers', 'conifers.conifers.spiders', 'flipkart.flipkart',
+              'flipkart.flipkart.spiders', 'impelsys.impelsys', 'impelsys.impelsys.spiders', 'tutorial.tutorial',
+              'tutorial.tutorial.spiders', 'quotes_DB.quotes', 'quotes_DB.quotes.spiders', 'society_1.society_1',
+              'society_1.society_1.spiders', 'brainyquote.brainyquote', 'brainyquote.brainyquote.spiders',
+              'quotedynamic.splash.splash', 'quotedynamic.splash.splash.har', 'quotedynamic.splash.splash.tests',
+              'quotedynamic.splash.splash.kernel', 'quotedynamic.quotedynamic', 'quotedynamic.quotedynamic.spiders',
+              'Python_Example.myPackages',
+              'Python_Example.python_course.Examples.Chapter3_Variables_Keywords_and_Operators.Indent',
+              'Python_Example.python_course.Examples.Chapter3_Variables_Keywords_and_Operators.Identifiers',
+              'Python_Example.python_course.Examples.Chapter3_Variables_Keywords_and_Operators.Input_and_Output',
+              'Python_Example.python_course.Examples.Chapter3_Variables_Keywords_and_Operators.ReservedKeywords',
+              'Python_Example.python_course.Examples.Chapter3_Variables_Keywords_and_Operators.VariableAssignments',
+              'Python_Example.python_course.Examples.Chapter3_Variables_Keywords_and_Operators.operators_and_preedences',
+              'Python_Example.python_course.Examples.Chapter3_Variables_Keywords_and_Operators.MultilineStatements_Comments',
+              'Python_Example.python_course.Examples.Chapter3_Variables_Keywords_and_Operators.MultipleStatementsInSingleLine',
+              'timecoverspider.timecoverspider', 'timecoverspider.timecoverspider.spiders',
+              'youtube_trending.youtube_trending', 'youtube_trending.youtube_trending.spiders',
+              'scrapy-mysql-master.mysql', 'scrapy-mysql-master.mysql.spiders'],
+    url='',
+    license='',
+    author='kiran',
+    author_email='',
+    description=''
+)
